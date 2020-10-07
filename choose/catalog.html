@@ -1,0 +1,216 @@
+<html lang="es">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <title>Uso de choose con xslt</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   </head>
+   <body>
+      <div class="container">
+         <p class="form-control">select="ejemplo" -&gt; valor etiqueta</p>
+         <p class="form-control">select="@ejemplo" -&gt; valor atributo de etiqueta</p>
+         <div class="card">
+            <div class="card-header">
+               <h2 class="card-title">Catalog CD'S</h2>
+            </div>
+            <div class="card-body">
+               <table class="table table-hover">
+                  <theader>
+                     <tr>
+                        <td>Title</td>
+                        <td>Artist</td>
+                        <td>Company</td>
+                        <td>Year</td>
+                        <td>Price</td>
+                     </tr>
+                  </theader>
+                  <tbody>
+                     <tr class="table-danger">
+                        <td>Empire Burlesque</td>
+                        <td>Bob Dylan</td>
+                        <td>Columbia</td>
+                        <td>1985</td>
+                        <td>10.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Hide your heart</td>
+                        <td>Bonnie Tyler</td>
+                        <td>CBS Records</td>
+                        <td>1988</td>
+                        <td>9.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Greatest Hits</td>
+                        <td>Dolly Parton</td>
+                        <td>RCA</td>
+                        <td>1982</td>
+                        <td>9.90</td>
+                     </tr>
+                     <tr class="table-danger">
+                        <td>Still got the blues</td>
+                        <td>Gary Moore</td>
+                        <td>Virgin records</td>
+                        <td>1990</td>
+                        <td>10.20</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Eros</td>
+                        <td>Eros Ramazzotti</td>
+                        <td>BMG</td>
+                        <td>1997</td>
+                        <td>9.90</td>
+                     </tr>
+                     <tr class="table-danger">
+                        <td>One night only</td>
+                        <td>Bee Gees</td>
+                        <td>Polydor</td>
+                        <td>1998</td>
+                        <td>10.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Sylvias Mother</td>
+                        <td>Dr.Hook</td>
+                        <td>CBS</td>
+                        <td>1973</td>
+                        <td>8.10</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Maggie May</td>
+                        <td>Rod Stewart</td>
+                        <td>Pickwick</td>
+                        <td>1990</td>
+                        <td>8.50</td>
+                     </tr>
+                     <tr class="table-danger">
+                        <td>Romanza</td>
+                        <td>Andrea Bocelli</td>
+                        <td>Polydor</td>
+                        <td>1996</td>
+                        <td>10.80</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>When a man loves a woman</td>
+                        <td>Percy Sledge</td>
+                        <td>Atlantic</td>
+                        <td>1987</td>
+                        <td>8.70</td>
+                     </tr>
+                     <tr class="table-danger">
+                        <td>Black angel</td>
+                        <td>Savage Rose</td>
+                        <td>Mega</td>
+                        <td>1995</td>
+                        <td>10.90</td>
+                     </tr>
+                     <tr class="table-danger">
+                        <td>1999 Grammy Nominees</td>
+                        <td>Many</td>
+                        <td>Grammy</td>
+                        <td>1999</td>
+                        <td>10.20</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>For the good times</td>
+                        <td>Kenny Rogers</td>
+                        <td>Mucik Master</td>
+                        <td>1995</td>
+                        <td>8.70</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Big Willie style</td>
+                        <td>Will Smith</td>
+                        <td>Columbia</td>
+                        <td>1997</td>
+                        <td>9.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Tupelo Honey</td>
+                        <td>Van Morrison</td>
+                        <td>Polydor</td>
+                        <td>1971</td>
+                        <td>8.20</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Soulsville</td>
+                        <td>Jorn Hoel</td>
+                        <td>WEA</td>
+                        <td>1996</td>
+                        <td>7.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>The very best of</td>
+                        <td>Cat Stevens</td>
+                        <td>Island</td>
+                        <td>1990</td>
+                        <td>8.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Stop</td>
+                        <td>Sam Brown</td>
+                        <td>A and M</td>
+                        <td>1988</td>
+                        <td>8.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Bridge of Spies</td>
+                        <td>T`Pau</td>
+                        <td>Siren</td>
+                        <td>1987</td>
+                        <td>7.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Private Dancer</td>
+                        <td>Tina Turner</td>
+                        <td>Capitol</td>
+                        <td>1983</td>
+                        <td>8.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Midt om natten</td>
+                        <td>Kim Larsen</td>
+                        <td>Medley</td>
+                        <td>1983</td>
+                        <td>7.80</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Pavarotti Gala Concert</td>
+                        <td>Luciano Pavarotti</td>
+                        <td>DECCA</td>
+                        <td>1991</td>
+                        <td>9.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>The dock of the bay</td>
+                        <td>Otis Redding</td>
+                        <td>Stax Records</td>
+                        <td>1968</td>
+                        <td>7.90</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Picture book</td>
+                        <td>Simply Red</td>
+                        <td>Elektra</td>
+                        <td>1985</td>
+                        <td>7.20</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Red</td>
+                        <td>The Communards</td>
+                        <td>London</td>
+                        <td>1987</td>
+                        <td>7.80</td>
+                     </tr>
+                     <tr class="table-primary">
+                        <td>Unchain my heart</td>
+                        <td>Joe Cocker</td>
+                        <td>EMI</td>
+                        <td>1987</td>
+                        <td>8.20</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
