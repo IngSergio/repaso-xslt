@@ -1,7 +1,14 @@
-# repaso-xslt
+# __Repaso de temas XSLT y DataPower__
 
-Repaso de temas de XSLT
+* Temas de XSLT
 
-* for-each
-* if
-* atributos
+    * Estructuras de control
+    * Tipos de datos
+    * Restricciones
+    * Templates
+
+* Temas de DataPower
+
+    * Front Side Handler
+    * Multi-Protocol Gateway
+    * Web Service Proxy
